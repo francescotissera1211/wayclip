@@ -23,18 +23,18 @@ base64 = "0.22"
 
 # Daemon specific
 tokio = { version = "1", features = ["full", "rt-multi-thread"] }
-rusqlite = { version = "0.32", features = ["bundled", "blob"] }
+rusqlite = { version = "0.38", features = ["bundled", "blob"] }
 sha2 = "0.10"
 wayland-client = "0.31"
 wayland-protocols-wlr = { version = "0.3", features = ["client"] }
 
 # Client specific
-gtk4 = { version = "0.9", features = ["v4_12"] }
-glib = "0.20"
-gdk4 = "0.9"
-gio = "0.20"
-gdk-pixbuf = "0.20"
-pango = "0.20"
+gtk4 = { version = "0.10", features = ["v4_12"] }
+glib = "0.21"
+gdk4 = "0.10"
+gio = "0.21"
+gdk-pixbuf = "0.21"
+pango = "0.21"
 
 # Common
 wayclip-common = { path = "crates/wayclip-common" }
